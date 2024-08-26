@@ -1,25 +1,11 @@
-# Welcome to Next.js
+1. Signup on https://instantdb.com/dash and get App ID
 
-This is the most minimal starter for your Next.js project.
+2. Take clone of this repo
 
-## Deploy your own
+3. Set environment variable(NEXT_INSTANT_DB_APP_ID) on machine or use .env.local
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/hello-world&project-name=hello-world&repository-name=hello-world)
+4. (node version higher than 16) run: npm install 
 
-## How to use
+5. start app: npm run dev
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example hello-world hello-world-app
-```
-
-```bash
-yarn create next-app --example hello-world hello-world-app
-```
-
-```bash
-pnpm create next-app --example hello-world hello-world-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+6. Go To: http://localhost:2100 
