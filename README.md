@@ -4,7 +4,7 @@
 
 3. Set environment variable(NEXT_INSTANT_DB_APP_ID) on machine or use .env.local
 
-4. (node version higher than 16) run: npm install 
+4. (use node version higher than 18) run: npm install 
 
 5. start app: npm run dev
 
