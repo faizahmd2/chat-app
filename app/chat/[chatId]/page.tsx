@@ -17,7 +17,7 @@ function ChatPage() {
     // return <ChatComponent conversationId={chatId} currentUserId={user.id} />
 
     return (
-        <div style={{ position:"relative", height: "94vh" }}>
+        <div style={{ position:"relative", height: "90vh" }}>
             <MainContainer responsive>
                 <Sidebar position="left">
                     <ConversationListing currentUserId={user.id} activeChatId={chatId} />

@@ -46,3 +46,8 @@
 .share-icons-container {
     margin-top: 2vw;
 }
+
+.otp-input-container input {
+    width: 2.5em !important;
+    height: 2.5em;
+}

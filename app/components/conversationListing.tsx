@@ -87,7 +87,7 @@ function ConversationListing(props: ConversationListingProps) {
     return <>
     <Search placeholder="Search..." />
     {chatData.map((chat, index) => (<>
-        <ConversationList>
+        <ConversationList style={{height: "unset"}}>
             <Conversation
                 info={chat.preview}
                 lastSenderName={chat.lastSenderName}

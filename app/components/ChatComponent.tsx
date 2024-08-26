@@ -1,7 +1,7 @@
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css'
 
 import { useState } from 'react';
-import { MainContainer, ChatContainer, MessageList, Message, MessageInput, Avatar, ChatComponentProps, ConversationHeader, VoiceCallButton, VideoCallButton, InfoButton, Loader, Search, Sidebar, ConversationList, Conversation, AddUserButton } from '@chatscope/chat-ui-kit-react'
+import { MainContainer, ChatContainer, MessageList, Message, MessageInput, Avatar, ChatComponentProps, ConversationHeader, VoiceCallButton, VideoCallButton, InfoButton, Loader, Search, Sidebar, ConversationList, Conversation, AddUserButton, ArrowButton } from '@chatscope/chat-ui-kit-react'
 import { db, tx, id } from '../services/instantdbService'
 import { ChatComponet } from '../../types'
 import { getMessageTime } from '../services/utility';
@@ -40,6 +40,10 @@ function ChatComponent(props: ChatComponet) {
     router.push(`/`);
   }
 
+  const handleListChats = () => {
+    router.push(`/chat`);
+  }
+
   const sendMessage = (conversationId: string, senderId: string, text: string) => {
       const message = {
         id: id(),
@@ -70,6 +74,7 @@ function ChatComponent(props: ChatComponet) {
             <ConversationHeader.Content userName={otherUser.name} info={getMessageTime(otherUser.createdAt)} />
             <ConversationHeader.Actions>
               <AddUserButton onClick={handleCreateNewUser} />
+              <ArrowButton direction="left" onClick={handleListChats} />
             </ConversationHeader.Actions>
           </ConversationHeader>}
           <MessageList>

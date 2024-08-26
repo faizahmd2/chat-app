@@ -27,6 +27,7 @@ export const pageStyle: Record<string, React.CSSProperties> = {
       border: 'none',
       borderRadius: '5px',
       cursor: 'pointer',
+      marginTop: "1.5em"
     },
 };
   
@@ -81,7 +82,6 @@ export const homeStyle: Record<string, React.CSSProperties> = {
         padding: '10px',
         border: '1px solid #ddd',
         borderRadius: '5px',
-        width: '300px',
     },
     button: {
         padding: '10px 20px',
@@ -106,6 +106,7 @@ export const homeStyle: Record<string, React.CSSProperties> = {
     },
     title_p: {
         margin: 0,
+        marginBottom: "10px",
         fontSize: '.85em',
         color: '#000000ad'
     }

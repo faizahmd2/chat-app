@@ -79,7 +79,7 @@ function HomePage(props) {
         <div style={homeStyle.container}>
             <div style={homeStyle.title}>
                 <h2 style={homeStyle.title_h}>Welcome To Chat App</h2>
-                <p style={homeStyle.title_p}>Please Create/join chat below or <a href="/chat" target='_blank'>redirect to chat ↗</a></p>
+                <p style={homeStyle.title_p}>Create/join chat below or <a href="/chat" target='_blank'>redirect to chat ↗</a></p>
             </div>
             <div className="create-chat-container">
                 <div style={homeStyle.btnContainer}>
@@ -97,7 +97,7 @@ function HomePage(props) {
                         generatedCode && <CopyText code={generatedCode} />
                     }
                     {!generatedCode && <button onClick={handleSubmit} style={homeStyle.button}>
-                        {isChecked ? 'Join Chat' : 'Create Chat'}
+                        {isChecked ? 'Join' : 'Create Chat'}
                     </button>}
                 </div>
                 {generatedCode && <div className='share-icons-container'>
