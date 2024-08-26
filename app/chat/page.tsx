@@ -15,13 +15,13 @@ function ChatBox() {
 
     return <>
         { isMobile && 
-        <div style={{ position:"relative", height: "97vh" }}>
+        <div style={{ position:"relative", height: "94vh" }}>
             <ConversationListing currentUserId={user.id} activeChatId={null} />
         </div>
         }
         {
             !isMobile && 
-            <div style={{ position:"relative", height: "97vh" }}>
+            <div style={{ position:"relative", height: "94vh" }}>
                 <MainContainer responsive>
                     <Sidebar position="left">
                         <ConversationListing currentUserId={user.id} activeChatId={null} />
