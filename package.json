@@ -6,9 +6,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@chatscope/chat-ui-kit-react": "^2.0.3",
+    "@chatscope/chat-ui-kit-styles": "^1.4.0",
+    "@instantdb/react": "^0.12.8",
     "next": "latest",
+    "next-share": "^0.27.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-spinners": "^0.14.1"
   },
   "devDependencies": {
     "@types/node": "20.10.8",

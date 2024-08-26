@@ -1,0 +1,48 @@
+.readonly-input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.readonly-input-container button {
+    outline: none;
+    border: none;
+    padding: 6px 14px;
+    color: #fff;
+    border-radius: 3px;
+    background: #2c63a9;
+    cursor: pointer;
+}
+
+.readonly-input-container button.focused {
+    background: #388500;
+}
+
+.readonly-go-home-btn {
+    padding: 6px 13px;
+    margin-top: 13px;
+}
+  
+.readonly-input {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+  
+.readonly-input.copied {
+    opacity: 1;
+    outline: none;
+}
+
+.recent-chat-list {
+    margin-top: 2vh;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.share-icons-container {
+    margin-top: 2vw;
+}
