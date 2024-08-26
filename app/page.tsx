@@ -21,7 +21,6 @@ function App() {
     return <div>Something went wrong!</div>;
   }
   if (user) {
-    console.log("d",data)
     if(data && !data.users.length) {
       let name = user.email.split("@")[0];
       let usr = {
